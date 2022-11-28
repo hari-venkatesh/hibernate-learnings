@@ -8,6 +8,10 @@ public class Admin {
 	
 	@Id
 	private int id;
+	@Override
+	public String toString() {
+		return "Admin [id=" + id + ", name=" + name + ", role=" + role + "]";
+	}
 	private String name;
 	private String role;
 	
